@@ -13,12 +13,14 @@ import (
     "fmt"
 )
 
+// Return type infix is returned from this function.
 func intopost(infix string) string {
     specials := map[rune]int{'*': 10, '.': 9, '|': 8}
 
-    //pofix = postfix, s = stack.
+    // pofix = postfix, s = stack.
     pofix, s := []rune{}, []rune{} 
 
+    // This for loop will loop over the infix and will then give us an index of read characters.
     for _, r:= range infix {
         
         switch {
@@ -27,10 +29,12 @@ func intopost(infix string) string {
             s = append(s, r) 
 
         case r == ')': 
-            for s[len(s)-1] != '(' {
-                pofix, s = append(pofix, s[len(s)-1]), s[:len(s)-1]
-            }
-            s = s[:len(s)-1]
+
+        for s[len(s)-1] != '(' {
+            pofix, s = append(pofix, s[len(s)-1]), s[:len(s)-1]
+        }
+
+        s = s[:len(s)-1]
 
         case specials[r] > 0: 
             for len(s) > 0 && specials[r] <= specials[s[len(s)-1]] {
@@ -47,6 +51,7 @@ func intopost(infix string) string {
         pofix, s = append(pofix, s[len(s)-1]), s[:len(s)-1]
     }
 
+    // Postfix is returned in a string format.
     return string(pofix)
 }
 
