@@ -22,13 +22,13 @@ easier to solve, and to plug these together after they have been completed.
 
 
 # Resources
-https://web.microsoftstream.com/video/68a288f5-4688-4b3a-980e-1fcd5dd2a53b
-https://en.wikipedia.org/wiki/Thompson%27s_construction
-https://web.microsoftstream.com/video/bad665ee-3417-4350-9d31-6db35cf5f80d
-https://gobyexample.com/regular-expressions
-https://web.microsoftstream.com/video/9d83a3f3-bc4f-4bda-95cc-b21c8e67675e
-https://en.wikipedia.org/wiki/Shunting-yard_algorithm
-https://brilliant.org/wiki/shunting-yard-algorithm/
-https://stackoverflow.com/questions/20895552/how-to-read-input-from-console-line?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+1. https://web.microsoftstream.com/video/68a288f5-4688-4b3a-980e-1fcd5dd2a53b
+2. https://en.wikipedia.org/wiki/Thompson%27s_construction
+3. https://web.microsoftstream.com/video/bad665ee-3417-4350-9d31-6db35cf5f80d
+4. https://gobyexample.com/regular-expressions
+5. https://web.microsoftstream.com/video/9d83a3f3-bc4f-4bda-95cc-b21c8e67675e
+6. https://en.wikipedia.org/wiki/Shunting-yard_algorithm
+7. https://brilliant.org/wiki/shunting-yard-algorithm/
+8. https://stackoverflow.com/questions/20895552/how-to-read-input-from-console-line?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
 
 
