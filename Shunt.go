@@ -5,7 +5,8 @@
 
 // Shunting-Yard Algorithm
 // In computer science, Shunting-yard algorithm is a method for parsing mathematical
-// expressions specified in infix notation. It can produce either a postfix notation string.
+// expressions specified in infix notation. It can produce either a postfix notation string
+// or an abstract syntax tree.
 
 package main
 
